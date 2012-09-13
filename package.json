@@ -1,0 +1,16 @@
+{ "name" : "cyesv"
+, "description" : "Simplified CSV parser"
+, "tags" : ["csv", "util", "utility"]
+, "version" : "1.0.0"
+, "author" : "vijay annadi <vijay.annadi@gmail.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/vijayannadi/cyesv.git"
+  }
+, "bugs" :
+  { "url" : "http://github.com/vijayannadi/cyesv/issues" }
+, "engines" : ["node >= 0.3.6"]
+, "main" : "./main"
+, "scripts": { "test": "node tests/run.js" }
+}
+
